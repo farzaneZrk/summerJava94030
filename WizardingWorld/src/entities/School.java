@@ -3,8 +3,8 @@ package entities;
 import java.util.*;
 
 public class School {
-	
-	/*variables*/
+
+	/*Variables*/
 	private String _name;
 	private int _numOfStudents;
 	private boolean _housed;
@@ -12,7 +12,7 @@ public class School {
 	private Vector<String> _studentNames;
 	private Vector<String> _professorNames;
 	private ArrayList<String> _courseNames;
-	/*constructors*/
+	/*Constructors*/
 	public School(String name){
 		_name = name;
 		_numOfStudents = 0;
@@ -40,7 +40,7 @@ public class School {
 		else
 			_numOfStudents = 0;
 	}
-	/*getters*/
+	/*Getters*/
 	public String getName() {
 		return _name;
 	}
@@ -62,8 +62,7 @@ public class School {
 	public ArrayList<String> getCourseNames() {
 		return _courseNames;
 	}
-	
-	/*setters*/
+	/*Setters*/
 	public void setName(String name) {
 		_name = name;
 	}
