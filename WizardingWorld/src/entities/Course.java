@@ -2,12 +2,13 @@ package entities;
 
 import java.util.Vector;
 public class Course {
+    /*Variables*/
     private String _name;
     private String _professorName;
     private char _minGrade;
     private int _year;
     private Vector<String> _studentNames;
-    /*constructors*/
+    /*Constructors*/
     public Course (String name){
         _name = name;
         _professorName = "";
@@ -28,7 +29,7 @@ public class Course {
         this(name, professorName, minGrade, year);
         this.setStudentNames(studentNames);
     }
-    /*getters*/
+    /*Getters*/
     public String getName(){
         return _name;
     }
@@ -44,7 +45,7 @@ public class Course {
     public Vector<String> getStudentNames(){
         return _studentNames;
     }
-    /*setters*/
+    /*Setters*/
     public void setName(String name){
         _name = name;
     }
