@@ -30,7 +30,7 @@ public class Person {
         return _name;
     }
     public String getHouseName(){
-        return _houseName;
+        return _houseNames;
     }
     public String getBloodStatus(){
         return _bloodStatus;
@@ -45,7 +45,7 @@ public class Person {
     public void setName(String name){
         _name = name;
     }
-    public void setHouseName(String houseName){
+    public void setHouseName(Stirn houseName){
         _houseName = houseName;
     }
     public void setBloodStatus(String bloodStatus){

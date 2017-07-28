@@ -1,4 +1,4 @@
-package tests;
+/*package tests;
 
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -94,4 +94,4 @@ public class PersonTest {
 		Assert.assertEquals(expected, actual);
 	}
 
-}
+}*/
