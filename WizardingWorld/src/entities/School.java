@@ -12,9 +12,9 @@ public class School {
 	private Vector<String> _studentNames;
 	private Vector<String> _professorNames;
 	private ArrayList<String> _courseNames;
-	/*default constructor*/
-	public School(){
-		_name = "";
+	/*constructors*/
+	public School(String name){
+		_name = name;
 		_numOfStudents = 0;
 		_housed = false;
 		_houseNames = new ArrayList<String>();
@@ -22,12 +22,10 @@ public class School {
 		_professorNames = new Vector<String>();
 		_courseNames = new ArrayList<String>();
 	}
-	/*constructors*/
-	public School(String name){
-		this = new School();
-		this.setName(name);
+	public School(){
+		this("");
 	}
-	public School(String name, ArrayList<String> houseNames, Vector<String> studentNames, Vector<String> professorNames, ArrayList<String> courseNames){
+	public School(String name, ArrayList<String> houseNames, ArrayList<String> courseNames, Vector<String> studentNames, Vector<String> professorNames){
 		setName(name);
 		setHouseNames(houseNames);
 		setStudentNames(studentNames);
