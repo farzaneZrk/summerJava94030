@@ -1,0 +1,80 @@
+Hogwarts
+4
+Gryffindor
+Hufflepuff
+Ravenclaw
+Slytherin
+5
+Flying
+Potions
+Transfiguration
+Charming
+Herbology
+8
+Nevile Longbottom
+Luna Lovegood
+Lavender Brown
+Harry Potter
+Hermoine Granger
+Ronald Weasley
+Draco Malfoy
+Cho Chang
+6
+Minerva McGonagall
+Severus Snape
+Madame Hooch
+Horace Slughorn
+Filius Flitwick
+Pomona Sprout
+*
+Beauxbaton
+3
+Bellefeuille
+Ombrelune
+Papillonlisse
+3
+Bird-Conjuring Charm
+Terror
+French Ministry of Magic
+6
+Fleur Delacour
+Nicolas Flamel
+Olympe Maxime
+Gabrielle Delacour
+Luc Millefeuille
+Perenelle Flamel
+6
+Claude-Noël Guillory
+Cladis Perses Gallion
+Madame Sordeau
+Georgia Darcy-Allen
+Cleopatra Van Droombeeld
+Geoffrey Sauveterre
+*
+Durmstrang
+3
+Loki
+Freyja
+Tyr
+10
+Charms
+Flying
+Transfiguration
+Defense Against the Dark Arts
+Herbology
+Potions
+Care of Magical Creatures
+History of Magic
+Astronomy
+Dark Arts
+5
+Durmstrang girl
+Gellert Grindelwald
+Igor Karkaroff's aide
+Poliakoff
+Viktor Krum
+2
+Igor Karkaroff
+Harfang Munter
+*
+$

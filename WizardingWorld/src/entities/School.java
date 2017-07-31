@@ -9,9 +9,9 @@ public class School {
 	private int _numOfStudents;
 	private boolean _housed;
 	private ArrayList<String> _houseNames;
-	private Vector<String> _studentNames;
-	private Vector<String> _professorNames;
 	private ArrayList<String> _courseNames;
+    private Vector<String> _studentNames;
+	private Vector<String> _professorNames;
 	/*Constructors*/
 	public School(String name){
 		_name = name;

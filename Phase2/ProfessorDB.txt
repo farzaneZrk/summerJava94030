@@ -1,0 +1,29 @@
+Severus Snape
+Potions
+1995
+*
+Madame Hooch
+Flying
+1991
+*
+Albus Dumbledore
+Transfiguration
+1955
+*
+Minerva McGonagall
+Transfiguration
+1956
+*
+Horace Slughorn
+Potions
+1997
+*
+Filius Flitwick
+Charm
+1975
+*
+Pomona Sprout
+Herbology
+1955
+*
+$

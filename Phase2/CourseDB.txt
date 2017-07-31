@@ -1,0 +1,49 @@
+Potions
+O
+Severus Snape
+1995
+3
+Harry Potter
+Hermoine Granger
+Ronald Weasley
+*
+Flying
+A
+Madame Hooch
+1996
+1
+Draco Malfoy
+*
+Transfiguration
+E
+Minerva McGonagall
+1956
+2
+Harry Potter
+Hannah Abbott
+*
+Charm
+A
+Filius Flitwick
+1975
+3
+Harry Potter
+Ron Weasley
+Hermione Granger
+*
+Herbology
+A
+Pomona Sprout
+1955
+1
+Neville Longbottom
+*
+History of Magic
+A
+Cuthbert Binns
+1990
+Harry Potter
+Hermione Granger
+*
+$
+////

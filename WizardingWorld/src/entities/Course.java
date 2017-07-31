@@ -4,8 +4,8 @@ import java.util.Vector;
 public class Course {
     /*Variables*/
     private String _name;
-    private String _professorName;
     private char _minGrade;
+    private String _professorName;
     private int _year;
     private Vector<String> _studentNames;
     /*Constructors*/

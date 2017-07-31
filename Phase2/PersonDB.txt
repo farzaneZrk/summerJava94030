@@ -1,0 +1,71 @@
+Albus Dumbledore
+Gryffindor
+Pureblood
+Hogwarts
+unknown
+professor
+*
+Fleur Delacour
+N/A
+part-human
+Beauxbatton
+unknown
+student
+*
+Harry Potter
+Gryffindor
+Pureblood
+Hogwarts
+31/07/1997
+student
+*
+Hermoine Granger
+Gryffindor
+Muggle_born
+Hogwarts
+19/09/1979
+student
+*
+Ronald Weasley
+Gryffindor
+Pureblood
+Hogwarts
+01/03/1980
+student
+*
+Draco Malfoy
+Slytherin
+Pureblood
+Hogwarts
+05/06/1980
+student
+*
+Luna Lovegood
+Ravenclaw
+Pureblood
+Hogwarts
+13/02/1981
+student
+*
+cho Chang
+Ravenclaw
+Pureblood
+Hogwarts
+31/08/1979
+student
+*
+Nevile Longbottom
+Gryffindor
+Pureblood
+Hogwarts
+30/07/1980
+student
+*
+Lavender Brown
+Gryffindor
+Pureblood
+Hogwarts
+31/08/1980
+student
+*
+$

@@ -1,0 +1,128 @@
+Ravenclaw
+Hogwarts
+15
+Pomona Sprout
+Silvanus Kettleburn
+Newton Scamander
+Nymphadora Tonks
+Cedric Diggory
+Ernie Macmillan
+Hannah Abbott
+Justin Finch-Fletchley
+Susan Bones
+Zacharias Smith
+Leanne
+Fat Friar
+Bridget Wenlock
+Hengist of Woodcroft
+Teddy Lupin
+*
+Gryffindor
+Hogwarts
+26
+Potter family
+Weasley family
+Hermione Granger
+Neville Longbottom
+Dean Thomas
+Seamus Finnigan
+Lavender Brown
+Cormac McLaggen
+Parvati Patil
+Albus Dumbledore
+Minerva McGonagall
+Remus Lupin
+Sirius Black
+Peter Pettigrew
+Rubeus Hagrid
+Lily Evans
+Colin Creevey
+Dennis Creevey
+Alicia Spinnet
+Angelina Johnson
+Katie Bell
+Oliver Wood
+Lee Jordan
+Demelza Robins
+Romilda Vane
+Sir Nicholas de Mimsy-Porpington
+*
+Hufflepuff
+Hogwarts
+15
+Pomona Sprout
+Silvanus Kettleburn
+Newton Scamander
+Nymphadora Tonks
+Cedric Diggory
+Ernie Macmillan
+Hannah Abbott
+Justin Finch-Fletchley
+Susan Bones
+Zacharias Smith
+Leanne
+Fat Friar
+Bridget Wenlock
+Hengist of Woodcroft
+Teddy Lupin
+*
+Slytherin
+Hogwarts
+55
+Merlin
+Tom Riddle
+Severus Snape
+Bellatrix Lestrange
+Rodolphus Lestrange
+Regulus Black
+Horace Slughorn
+Andromeda Tonks
+Phineas Nigellus Black
+Bloody Baron
+Draco Malfoy
+Lucius Malfoy
+Narcissa Malfoy
+Abraxas Malfoy
+Vincent Crabbe
+Gregory Goyle
+Pansy Parkinson
+Blaise Zabini
+Rita Skeeter
+Marcus Flint
+Terence Higgs
+Adrian Pucey
+Millicent Bulstrode
+Tracey Davis
+Hestia Carrow
+Flora Carrow
+Black family
+Malfoy family
+House of Gaunt
+Rosier family
+Lestrange family
+Greengrass family
+Goyle family
+Gamp family
+Crabbe family
+Blishwick family
+Nott family
+Several Death Eaters
+Adelaide Murton
+Gemma Farley[4]
+Dolores Umbridge[5]
+Salazar Slytherin
+Peter
+Roy
+Bridget
+Rachel
+Zubeida Khan
+Zoe Accrington
+Yurika Haneda
+Yatin Bhagat
+Viola Richmond
+Astoria Greengrass
+Daphne Greengrass
+Scorpius Malfoy
+Albus Potter
+*
+$

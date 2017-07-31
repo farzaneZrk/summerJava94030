@@ -1,0 +1,57 @@
+*
+Name Harry Potter
+School Hogwarts
+House Gryffindor
+Blood Pure
+Birthday 31/07/1997
+*
+Name Fleur Delacour
+School Beauxbatton
+House N/A
+Blood part-human
+Birthday unknown
+*
+Name Hermoine Granger
+School Hogwarts
+House Gryffindor
+Blood Muggle_born
+Birthday 19/09/1979
+*
+Name Ronald Weasley
+School Hogwarts
+House Gryffindor
+Blood Pureblood
+Birthday 01/03/1980
+*
+Name Draco Malfoy
+School Hogwarts
+House Slytherin
+Blood Pureblood
+Birthday 05/06/1980
+*
+Name Luna Lovegood
+School Hogwarts
+House Ravenclaw
+Blood Pureblood
+Birthday 13/02/1981
+*
+Name Cho Chang
+School Hogwarts
+House Ravenclaw
+Blood Pureblood
+Birthday 31/08/1979
+*
+Name Nevile Longbottom
+School Hogwarts
+House Gryffindor
+Blood Pureblood
+Birthday 30/07/1980
+*
+Name Lavender Brown
+School Hogwarts
+House Gryffindor
+Blood Pureblood
+Birthday 31/08/1980
+*
+$
+
