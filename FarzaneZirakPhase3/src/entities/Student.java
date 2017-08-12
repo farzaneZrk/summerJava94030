@@ -30,6 +30,7 @@ public class Student extends Person {
 		_courses = courses;
 		_reportCard = reportCard;
 	}
+	
 	public Vector<Course> getCourses() {
 		return _courses;
 	}

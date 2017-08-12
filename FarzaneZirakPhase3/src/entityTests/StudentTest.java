@@ -11,13 +11,13 @@ import entities.House;
 public class StudentTest {
 
 	
-	Student snape;
+	Student Draco;
 	@Test
 	public void getNameTest()
 	{
-		snape = new Student("Draco Malfoy");
+		Draco = new Student("Draco Malfoy");
 		
-		String actual = snape.getName();
+		String actual = Draco.getName();
 		String expected = "Draco Malfoy";
 		
 		Assert.assertEquals(expected, actual);
@@ -25,8 +25,8 @@ public class StudentTest {
 	@Test
 	public void getHouseTest() 
 	{
-		snape = new Student("Draco Malfoy", new House("Slytherin"), BloodStatus.Half_blood, new School("Hogwarts"), "9-01-1960");
-		House actual = snape.getHouse();
+		Draco = new Student("Draco Malfoy", new House("Slytherin"), BloodStatus.Half_blood, new School("Hogwarts"), "9-01-1960");
+		House actual = Draco.getHouse();
 		House expected = new House("Slytherin");
 		
 		Assert.assertEquals(expected, actual);
@@ -34,9 +34,9 @@ public class StudentTest {
 	@Test
 	public void getBloodStatusTest() 
 	{
-		snape = new Student("Draco Malfoy", new House("Slytherin"), BloodStatus.Half_blood, new School("Hogwarts"), "9-01-1960");
+		Draco = new Student("Draco Malfoy", new House("Slytherin"), BloodStatus.Half_blood, new School("Hogwarts"), "9-01-1960");
 		
-		BloodStatus actual = snape.getBloodStatus();
+		BloodStatus actual = Draco.getBloodStatus();
 		BloodStatus expected = BloodStatus.Half_blood;
 		
 		Assert.assertEquals(expected, actual);
@@ -44,8 +44,8 @@ public class StudentTest {
 	@Test
 	public void getSchoolTest() 
 	{
-		snape = new Student("Draco Malfoy", new House("Slytherin"), BloodStatus.Half_blood, new School("Hogwarts"), "9-01-1960");
-		School actual = snape.getSchool();
+		Draco = new Student("Draco Malfoy", new House("Slytherin"), BloodStatus.Half_blood, new School("Hogwarts"), "9-01-1960");
+		School actual = Draco.getSchool();
 		School expected = new School("Hogwarts");
 		
 		Assert.assertEquals(expected, actual);
@@ -53,9 +53,9 @@ public class StudentTest {
 	@Test
 	public void setNameTest()
 	{
-		snape = new Student("");
-		snape.setName("Draco Malfoy");
-		String actual = snape.getName();
+		Draco = new Student("");
+		Draco.setName("Draco Malfoy");
+		String actual = Draco.getName();
 		String expected = "Draco Malfoy";
 		
 		Assert.assertEquals(expected, actual);
@@ -63,9 +63,9 @@ public class StudentTest {
 	@Test
 	public void setHouseTest()
 	{
-		snape = new Student("Draco Malfoy");
-		snape.setHouse(new House("Slytherin"));
-		House actual = snape.getHouse();
+		Draco = new Student("Draco Malfoy");
+		Draco.setHouse(new House("Slytherin"));
+		House actual = Draco.getHouse();
 		House expected = new House("Slytherin");
 		
 		Assert.assertEquals(expected, actual);
@@ -73,9 +73,9 @@ public class StudentTest {
 	@Test
 	public void setBloodStatusTest()
 	{
-		snape = new Student("Draco Malfoy");
-		snape.setBloodStatus(BloodStatus.Half_blood);
-		BloodStatus actual = snape.getBloodStatus();
+		Draco = new Student("Draco Malfoy");
+		Draco.setBloodStatus(BloodStatus.Half_blood);
+		BloodStatus actual = Draco.getBloodStatus();
 		BloodStatus expected = BloodStatus.Half_blood;
 		
 		Assert.assertEquals(expected, actual);
@@ -83,9 +83,9 @@ public class StudentTest {
 	@Test
 	public void setSchoolTest()
 	{
-		snape = new Student("Draco Malfoy");
-		snape.setSchool(new School("Hogwarts"));
-		School actual = snape.getSchool();
+		Draco = new Student("Draco Malfoy");
+		Draco.setSchool(new School("Hogwarts"));
+		School actual = Draco.getSchool();
 		School expected = new School("Hogwarts");
 		
 		Assert.assertEquals(expected, actual);
