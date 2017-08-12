@@ -62,4 +62,5 @@ public class Person {
         return "Person{\nName: " + _name + "\nHouse: " + _house.getName() + "\nBlood Status: " 
                 + _bloodStatus + "\nSchool: " + _school.getName() + "\nBirthday: " + _birthday + "\n}";
     }
+    
 }

@@ -10,6 +10,7 @@ import entities.House;
 
 public class PersonTest {
 
+	
 	Person snape;
 	@Test
 	public void getNameTest()
