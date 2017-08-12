@@ -5,6 +5,9 @@ public class FinishedCourse extends Course {
 	private boolean _passed;
 	
 	/*constructor*/
+	public FinishedCourse (String name) {
+		super(name);
+	}
 	public FinishedCourse (String name, Grades minGrade, Professor professor, int year, Grades grade) {
 		super(name, professor, minGrade, year);
 		_grade = grade;
