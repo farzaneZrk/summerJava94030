@@ -64,7 +64,7 @@ public class School {
 	public Vector<Professor> getProfessors() {
 		return _professors;
 	}
-	public ArrayList<Course> getCourseNames() {
+	public ArrayList<Course> getCourses() {
 		return _courses;
 	}
 	/*Setters*/
@@ -141,3 +141,4 @@ public class School {
 	}
 	
 }
+
