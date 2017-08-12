@@ -31,11 +31,11 @@ public class Professor extends Person{
 	public Map<Integer, Course> getCourses() {
 		return _courses;
 	}
-	public void setCourses(Map<Integer, Course> courses) {
-		_courses = courses;
-	}
 	public String getNotes() {
 		return _notes;
+	}
+	public void setCourses(Map<Integer, Course> courses) {
+		_courses = courses;
 	}
 	public void setNotes(String notes) {
 		_notes = notes;
