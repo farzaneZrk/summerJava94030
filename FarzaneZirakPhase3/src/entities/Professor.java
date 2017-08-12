@@ -55,5 +55,4 @@ public class Professor extends Person{
 		}
 		return returnString.substring(0, returnString.length()-1) + "}";
 	}
-
 }
