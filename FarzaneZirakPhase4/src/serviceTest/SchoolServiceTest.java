@@ -11,14 +11,14 @@ import service.SchoolService;
 public class SchoolServiceTest {
     public void runTests() throws IOException{
         School hagwarts = new School("Hagwarts");
-        SchoolService SSTest = new SchoolService(hagwarts);
         Student deraco = new Student("Deraco Malfoy");
         ArrayList<House> houses = new ArrayList<House>();
 		houses.add(new House("Gryffindor"));
 		houses.add(new House("Hufflepuff"));
 		houses.add(new House("Ravenclaw"));
 		houses.add(new House("Slytherin"));
-		hagwarts.setHouses(houses);
+        hagwarts.setHouses(houses);
+        SchoolService SSTest = new SchoolService(hagwarts);
         
         System.out.println("Get School " + getSchoolTest(SSTest, hagwarts));
         System.out.println("Set School " + setSchoolTest(SSTest, new School("potions")));

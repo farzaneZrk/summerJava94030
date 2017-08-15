@@ -32,11 +32,10 @@ public class SchoolService {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int score = 0;
-        Vector<Vector<String>> questions = getQuestions();   
-
-        System.out.println("Enter a number:     ");
+        Vector<Vector<String>> questions = getQuestions();
+        System.out.println("Enter a number (1 or 2):     ");
         int key = Integer.parseInt(br.readLine());
-        System.out.println("now just type the number of your answer then press Enter. " + key);
+        System.out.println("now just type the number of your answer then press Enter. ");
 
         for(int i=0; i<8 ; i++){
             for(int j=0; j<questions.get(i*key).size(); j++)
@@ -58,17 +57,17 @@ public class SchoolService {
             try {
                 BufferedReader file = new BufferedReader(new FileReader("questions.txt"));
                 String s;
-                Vector<String> vec = new Vector<String>();
         
                 while ((s = file.readLine()) != null) {
-                    vec.add(s);
+                    Vector<String> vec = new Vector<String>();
+                    vec.addElement(s);
                     s = file.readLine();
                     int num = Integer.parseInt(s);
                     for(int i = 0; i < num; i++){
                         s = file.readLine();
-                        vec.add(s);
+                        vec.addElement(s);
                     }
-                    vc.add(vec);
+                    vc.addElement(vec);
                 }
                 file.close();
             } catch (IOException e) {}
