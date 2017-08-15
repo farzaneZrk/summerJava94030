@@ -20,6 +20,7 @@ public class StudentService {
 
     public void sortToHouse(House house){
         house.addStudent(_student);
+        _student.setHouse(house);
     }
 
 }
