@@ -8,6 +8,7 @@ import service.SchoolService;
 
 public class SchoolServiceTest {
     public void runTests() throws IOException{
+        
         SchoolService SSTest = new SchoolService();
         SSTest.getData("SchoolDB.txt");
         SSTest.setData();

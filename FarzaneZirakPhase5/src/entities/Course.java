@@ -70,6 +70,8 @@ public class Course {
     /*      Helper Methods      */
 
     public void addStudent(Student student){
+        if(_students == null)
+            _students = new Vector<Student>();
         _students.add(student);
     }
 
