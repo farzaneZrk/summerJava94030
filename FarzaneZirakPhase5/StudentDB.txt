@@ -1,6 +1,6 @@
 Fleur Delacour
 N/A
-half-breed
+Half_blood
 Beauxbatton
 unknown
 2
@@ -9,7 +9,7 @@ Flying
 *
 Harry Potter
 Gryffindor
-Pureblood
+Pure_blood
 Hogwarts
 01.07.1997
 6

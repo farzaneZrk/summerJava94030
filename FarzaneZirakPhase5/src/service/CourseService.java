@@ -38,6 +38,7 @@ public class CourseService {
         return _allCourses;
     }
 /*      Helper Methods        */
+
 public void getData(String fileName){
     _allCourses = new Vector<Course>();
     try {

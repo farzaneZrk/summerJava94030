@@ -5,10 +5,10 @@ import serviceTest.*;
 public class Main {
 	
 	public static void main(String args[]) throws IOException{
-     CourseServiceTest CSTest = new CourseServiceTest();
-     CSTest.runTests();
-//      StudentServiceTest SSTest = new StudentServiceTest();
-//      SSTest.runTests();
+//      CourseServiceTest CSTest = new CourseServiceTest();
+//      CSTest.runTests();
+      StudentServiceTest SSTest = new StudentServiceTest();
+      SSTest.runTests();
       // SchoolServiceTest SCSTest = new SchoolServiceTest();
       // SCSTest.runTests();
 
