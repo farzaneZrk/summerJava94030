@@ -7,5 +7,6 @@ public enum BloodStatus {
     Pure_blood,
     Squib,
     Half_breed,
+    Part_human,
     Default;
 }

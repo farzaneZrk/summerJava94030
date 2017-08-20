@@ -1,6 +1,6 @@
 Severus Snape
 Slytherin
-Half-blood
+Half_blood
 Hogwarts
 09.01.1960
 Potions

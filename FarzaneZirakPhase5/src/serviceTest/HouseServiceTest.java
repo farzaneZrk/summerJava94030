@@ -1,11 +1,11 @@
 package serviceTest;
 import java.io.*;
-import java.util.ArrayList;
+
 
 import entities.*;
 import service.HouseService;
 
-public class HouseSrviceTest {
+public class HouseServiceTest {
 
     public void runTests() throws IOException{
         
