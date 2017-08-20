@@ -76,12 +76,18 @@ public class House {
 	/*		Helper Methods		*/
 	
 	public void addQuality(String quality){
+		if(_qualities == null)
+			_qualities = new Vector<String>();
 		_qualities.add(quality);
 	}
 	public void addStudent(Student student){
+		if(_students == null)
+			_students = new Vector<Student>();
 		_students.add(student);
 	}
 	public void addPrefect(int year, Student prefect){
+		if(_prefects == null)
+			_prefects = new HashMap<Integer, Student>();
 		Integer y = new Integer(year);
 		_prefects.put(y, prefect);
 	}
