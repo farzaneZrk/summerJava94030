@@ -10,9 +10,13 @@ public class FinishedCourseServiceTest {
         FinishedCourseService FCSTest = new FinishedCourseService();
         FCSTest.getData("FinishedCourseDB.txt");
         FCSTest.setData();
-        System.out.println("Get and Set data: " + compareFile("FinishedCourseDB.txt", "myFinishedCourseDB.txt"));
+        Student harry = new Student("Harry Potter");
+        // System.out.println("Get and Set data: " + compareFile("FinishedCourseDB.txt", "myFinishedCourseDB.txt"));
         // System.out.println(FCSTest.getAllFinishedCourses());
-        getFinishedCoursesOfStudentTest(FCSTest, new Student("Harry Potter"));
+        // getFinishedCoursesOfStudentTest(FCSTest, harry);
+        FCSTest.showFinishedCourse("potions", harry);
+        FCSTest.showFinishedCourse("potions", new Student("Luna Lovegood"));
+        FCSTest.showFinishedCourse("potions", new Student("Luna Lovgood"));
     }
 
     public void getFinishedCoursesOfStudentTest(FinishedCourseService fcs, Student student){

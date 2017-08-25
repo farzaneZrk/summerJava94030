@@ -79,4 +79,26 @@ public class FinishedCourseService {
         return result;
     }
 
+    public void showAllFinishedCourses (){
+     /* This method print out a string that shows all the finished courses in the system*/
+     System.out.println(_allFinishedCourses);
+    }
+
+    public void showFinishedCourse(String name, Student student) {
+         /* Shows the finished course specified by its name and the student taking it*/
+         boolean findCourse = false;
+         boolean findStudent = false;
+         for(FinishedCourse finishedCourse : this.getFinishedCoursesOfStudent(student)){
+             findStudent = true;
+             if(finishedCourse.getName().equalsIgnoreCase(name)){
+                System.out.println(finishedCourse);
+                findCourse = true;
+             }
+         }
+        if(findStudent == false)
+             System.out.println("This student isn't in the system or doesn't finished any courses!");
+        else if(findCourse == false && findStudent == true)
+            System.out.println("This student doesn't finished this course!");
+    }
+
 }
