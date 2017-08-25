@@ -2,6 +2,7 @@ package serviceTest;
 
 import java.io.*;
 
+import entities.Student;
 import service.FinishedCourseService;
 
 public class FinishedCourseServiceTest {
@@ -10,6 +11,12 @@ public class FinishedCourseServiceTest {
         FCSTest.getData("FinishedCourseDB.txt");
         FCSTest.setData();
         System.out.println("Get and Set data: " + compareFile("FinishedCourseDB.txt", "myFinishedCourseDB.txt"));
+        // System.out.println(FCSTest.getAllFinishedCourses());
+        getFinishedCoursesOfStudentTest(FCSTest, new Student("Harry Potter"));
+    }
+
+    public void getFinishedCoursesOfStudentTest(FinishedCourseService fcs, Student student){
+        System.out.println(fcs.getFinishedCoursesOfStudent(student));
     }
 
     public boolean compareFile(String file1, String file2)throws IOException {

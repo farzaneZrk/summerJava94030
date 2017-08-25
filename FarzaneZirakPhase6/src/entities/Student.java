@@ -49,20 +49,31 @@ public class Student extends Person {
 	public void addToReportCard(FinishedCourse finishedCourse){
 		_reportCard.add(finishedCourse);
 	}
+	public boolean equals(Student student){
+		if(!(_name.equals(student.getName())))
+			return false;
+		else if(_house != null && student.getHouse() != null && !_house.equals(student.getHouse()))
+			return false;
+		else if(!(_bloodStatus.equals(student.getBloodStatus())))
+			return false;
+			else if(_school != null && student.getSchool() != null && !_school.equals(student.getSchool()))
+			return false;
+		else if(!(_birthday.equals(student.getBirthday())))
+			return false;
+		else if (_courses != null && student.getCourses() != null && !_courses.equals(student.getCourses()))
+			return false;
+		else if (_reportCard != null && student.getReportCard() != null && !_reportCard.equals(student.getReportCard()))
+			return false;
+		
+		return true;
+	}
 	public String toString(){
-		String returnString = super.toString();
-		returnString = "Student" + returnString.substring(6, returnString.length()-1) + "\t";
-		if(!(_courses.isEmpty())){
-			returnString = returnString.substring(0, returnString.length()-1) + "Courses:\n\t";
-			for(int i=0; i<_courses.size(); i++)
-				returnString += _courses.elementAt(i).getName() + "\n\t";
-		}
-		if(!(_reportCard.isEmpty())){
-			returnString = returnString.substring(0, returnString.length()-1) + "Finished Courses:\n\t";
-			for(int i=0; i<_reportCard.size(); i++)
-				returnString += _reportCard.elementAt(i).getName() + "\n\t";
-		}
-		return returnString.substring(0, returnString.length()-1) + "}";
+		return  "\n" + _name + "\n" +
+				_house.getName() + "\n" +
+				_bloodStatus + "\n" +
+				_school.getName() + "\n" +
+				_birthday + "\n" ;
+
 	}
 }
 

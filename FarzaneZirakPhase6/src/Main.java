@@ -1,5 +1,6 @@
 import java.io.IOException;
 
+import entities.*;
 import serviceTest.*;
 
 public class Main {
@@ -23,5 +24,8 @@ public class Main {
 
             // SchoolService ss = new SchoolService();
             // ss.getQuestions();
+//            Student s = new Student("harry potter");
+//            Student sp = new Student("harry potter");
+//            System.out.println(s.equals(sp));
 	}
 }

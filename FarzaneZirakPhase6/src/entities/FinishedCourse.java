@@ -56,11 +56,13 @@ public class FinishedCourse extends Course {
 	/*		Helper Methods		*/
 
 	public String toString(){
-		String returnString = "Finished" + super.toString() + "Grade: " + _grade + "\n";
-		if(_passed)
-			return returnString + "Passed}";
-		else
-			return returnString + "Faild}";
+
+		return  "\n" + _student.getName() + "\n" +
+				_grade + "\n" +
+				_passed + "\n" +
+				this.getName() + "\n" +
+				this.getMinGrade() + "\n" +
+				this.getYear() + "\n";
 	}
     
 }

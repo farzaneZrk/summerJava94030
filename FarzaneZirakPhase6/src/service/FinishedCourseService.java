@@ -6,7 +6,7 @@ import java.util.Vector;
 import entities.*;
 
 public class FinishedCourseService {
-    private Vector<FinishedCourse> _allFinishedCourses;
+    private Vector<FinishedCourse> _allFinishedCourses;         /* All finished courses in the system */
 
 /*      Constructors        */
 
@@ -67,6 +67,16 @@ public class FinishedCourseService {
             file.close();
     
         }catch (IOException exception){}
+    }
+
+    public Vector<FinishedCourse> getFinishedCoursesOfStudent(Student expectedStudent){
+        /* The finished courses of the student inputted are returned in a vector */
+        Vector<FinishedCourse> result = new Vector<FinishedCourse>();
+        for(FinishedCourse finishedCourse : _allFinishedCourses){
+            if (finishedCourse.getStudent().equals(expectedStudent))
+                result.add(finishedCourse);
+        }
+        return result;
     }
 
 }
