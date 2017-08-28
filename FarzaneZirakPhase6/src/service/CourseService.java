@@ -65,7 +65,7 @@ public void getData(String fileName){
 
 public void setData(){
     try{
-        BufferedWriter file = new BufferedWriter(new FileWriter("myCourseDB.txt"));         // I give a different name to this file to test it 
+        BufferedWriter file = new BufferedWriter(new FileWriter("CourseDB.txt"));         // I give a different name to this file to test it 
         for (Course course : _allCourses){
             file.write(course.getName() + "\n");
             file.write(course.getMinGrade() + "\n");

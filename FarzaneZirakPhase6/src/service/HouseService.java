@@ -59,7 +59,7 @@ public class HouseService {
 
     public void setData(){
         try{
-            BufferedWriter file = new BufferedWriter(new FileWriter("myHouseDB.txt"));
+            BufferedWriter file = new BufferedWriter(new FileWriter("HouseDB.txt"));
             for(House house : _allHouses){
                 file.write(house.getName() + "\n");
                 file.write(house.getSchool().getName() + "\n");

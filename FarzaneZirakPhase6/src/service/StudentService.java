@@ -70,7 +70,7 @@ public class StudentService {
 
     public void setData(){
         try{
-            BufferedWriter file = new BufferedWriter(new FileWriter("myStudentDB.txt"));         // I give a different name to this file to test it 
+            BufferedWriter file = new BufferedWriter(new FileWriter("StudentDB.txt"));         // I give a different name to this file to test it 
             for (Student student : _allStudents){
                 file.write(student.getName() + "\n");
                 file.write(student.getSchool().getName() + "\n");

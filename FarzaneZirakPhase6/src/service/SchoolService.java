@@ -89,7 +89,7 @@ public class SchoolService {
 
     public void setData(){
         try{
-            BufferedWriter file = new BufferedWriter(new FileWriter("mySchoolDB.txt"));
+            BufferedWriter file = new BufferedWriter(new FileWriter("SchoolDB.txt"));
             for (School school : _allSchools){
             	if(school == null)
             		break;

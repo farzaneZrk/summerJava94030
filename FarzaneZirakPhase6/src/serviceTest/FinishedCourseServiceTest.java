@@ -2,6 +2,9 @@ package serviceTest;
 
 import java.io.*;
 
+import entities.FinishedCourse;
+import entities.Grades;
+import entities.Professor;
 import entities.Student;
 import service.FinishedCourseService;
 
@@ -14,9 +17,10 @@ public class FinishedCourseServiceTest {
         // System.out.println("Get and Set data: " + compareFile("FinishedCourseDB.txt", "myFinishedCourseDB.txt"));
         // System.out.println(FCSTest.getAllFinishedCourses());
         // getFinishedCoursesOfStudentTest(FCSTest, harry);
-        FCSTest.showFinishedCourse("potions", harry);
-        FCSTest.showFinishedCourse("potions", new Student("Luna Lovegood"));
-        FCSTest.showFinishedCourse("potions", new Student("Luna Lovgood"));
+        // FCSTest.showFinishedCourse("potions", harry);
+        // FCSTest.showFinishedCourse("potions", new Student("Luna Lovegood"));
+        // FCSTest.showFinishedCourse("potions", new Student("Luna Lovgood"));
+        FCSTest.createNewFinishedCourse(new FinishedCourse("pp", harry, Grades.E, true, new Professor("Snape")));
     }
 
     public void getFinishedCoursesOfStudentTest(FinishedCourseService fcs, Student student){

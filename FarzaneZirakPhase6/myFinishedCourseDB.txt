@@ -30,4 +30,12 @@ E
 Remus Lupin
 1996
 *
+Harry Potter
+E
+true
+pp
+Default
+Snape
+0
+*
 $

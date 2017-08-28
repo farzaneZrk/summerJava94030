@@ -101,4 +101,18 @@ public class FinishedCourseService {
             System.out.println("This student doesn't finished this course!");
     }
 
+    public void createNewFinishedCourse(FinishedCourse finishedCourse) {
+        /* add a new finished course to the database and the vector */
+        _allFinishedCourses.addElement(finishedCourse);
+        setData();
+        // FileWriter fStream;
+        // try {
+        //     fStream = new FileWriter("myFinishedCourseDB.txt", true);
+        //     fStream.append(finishedCourse.toString());
+        //     // fStream.append("\n");
+        //     fStream.flush();
+        //     fStream.close();
+        // } catch (IOException ex) {}
+    }
+
 }

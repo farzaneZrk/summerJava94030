@@ -65,7 +65,7 @@ public class ProfessorService {
     }
     public void setData(){
         try{
-            BufferedWriter file = new BufferedWriter(new FileWriter("myProfessorDB.txt"));         // I give a different name to this file to test it 
+            BufferedWriter file = new BufferedWriter(new FileWriter("ProfessorDB.txt"));         // I give a different name to this file to test it 
             for (Professor professor : _allProfessors){
                 file.write(professor.getName() + "\n");
                 file.write(professor.getHouse().getName() + "\n");

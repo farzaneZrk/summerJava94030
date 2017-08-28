@@ -59,7 +59,7 @@ public class PersonService {
     }
     public void setData(){
         try{
-            BufferedWriter file = new BufferedWriter(new FileWriter("myPersonDB.txt"));         // I give a different name to this file to test it 
+            BufferedWriter file = new BufferedWriter(new FileWriter("PersonDB.txt"));         // I give a different name to this file to test it 
             for (Person person : _allPersons){
                 file.write(person.getName() + "\n");
                 file.write(person.getHouse().getName() + "\n");

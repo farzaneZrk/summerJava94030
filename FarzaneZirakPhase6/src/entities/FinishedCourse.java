@@ -22,6 +22,13 @@ public class FinishedCourse extends Course {
 		_grade = grade;
 		_passed = passed;
 	}
+	public FinishedCourse (String name, Student student, Grades grade, boolean passed, Professor professor) {
+		super(name);
+		_student = student;
+		_grade = grade;
+		_passed = passed;
+		_professor = professor;
+	}
 	public FinishedCourse (Student student) {
 		this("", student , Grades.Default, false);
 	}
@@ -57,12 +64,12 @@ public class FinishedCourse extends Course {
 
 	public String toString(){
 
-		return  "\n" + _student.getName() + "\n" +
+		return  _student.getName() + "\n" +
 				_grade + "\n" +
 				_passed + "\n" +
 				this.getName() + "\n" +
 				this.getMinGrade() + "\n" +
-				this.getYear() + "\n";
+				this.getYear();
 	}
     
 }
